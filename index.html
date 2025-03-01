@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OG Chill Guy</title>
+        <link rel="icon" type="image/png" href="../favicon.ico"/>
+        <meta name="description" content="$OGCG - I'm The Money">
+        <meta name="keywords" content="crypto, crypto ogchillguy, cryptocurrency, digital currency, ogchillguy, ico crypto, ogchillguy token, ogchillguy coin, ogchillguy exchange, ogchillguy token">
+        <link rel="canonical" href="#">
+        <meta name="theme-color" content="#FFBA00">
+
+        <link rel="canonical" href="#">
+
+        <!-- preload head styles -->
+        <link rel="preload" href="assets/css/unicons.min.css" as="style">
+        <link rel="preload" href="assets/css/swiper-bundle.min.css" as="style">
+        <link rel="preload" href="assets/css/magic-cursor.min.css" as="style">
+
+        <!-- preload footer scripts -->
+        <link rel="preload" href="assets/js/libs/jquery.min.js" as="script">
+        <link rel="preload" href="assets/js/libs/scrollmagic.min.js" as="script">
+        <link rel="preload" href="assets/js/libs/swiper-bundle.min.js" as="script">
+        <link rel="preload" href="assets/js/libs/anime.min.js" as="script">
+        <link rel="preload" href="assets/js/libs/typed.min.js" as="script">
+        <link rel="preload" href="assets/js/libs/tilt.min.js" as="script">
+        <link rel="preload" href="assets/js/libs/split-type.min.js" as="script">
+        <link rel="preload" href="assets/js/libs/prettify.min.js" as="script">
+        <link rel="preload" href="assets/js/libs/gsap.min.js" as="script">
+        <link rel="preload" href="assets/js/core/magic-cursor.js" as="script">
+        <link rel="preload" href="assets/js/helpers/data-attr-helper.js" as="script">
+        <link rel="preload" href="assets/js/helpers/swiper-helper.js" as="script">
+        <link rel="preload" href="assets/js/helpers/splitype-helper.js" as="script">
+        <link rel="preload" href="assets/js/helpers/anime-helper.js" as="script">
+        <link rel="preload" href="assets/js/helpers/typed-helper.js" as="script">
+        <link rel="preload" href="assets/js/helpers/tilt-helper.js" as="script">
+        <link rel="preload" href="assets/js/core/marquee.js" as="script">
+        <link rel="preload" href="assets/js/uikit-components-bs.js" as="script">
+        <link rel="preload" href="assets/js/app.js" as="script">
+
+        <!-- app head for bootstrap core -->
+        <script src="assets/js/app-head-bs.js"></script>
+
+        <!-- include uni-core components -->
+        <link rel="stylesheet" href="assets/js/uni-core/css/uni-core.min.css">
+
+        <!-- include styles -->
+        <link rel="stylesheet" href="assets/css/unicons.min.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/prettify.min.css">
+        <link rel="stylesheet" href="assets/css/magic-cursor.min.css">
+
+        <!-- include main style -->
+        <link rel="stylesheet" href="assets/css/theme/theme-three.min.purge.css">
+
+        <!-- include scripts -->
+        <script src="assets/js/uni-core/js/uni-core-bundle.min.js"></script>
+    </head>
+    <body class="uni-body panel uni-body panel bg-secondary text-white overflow-x-hidden disable-cursor">
+
+        <!--  GDPR modal -->
+        <div id="uc-gdpr-notification" class="uc-gdpr-notification uc-notification min-w-1/2 uc-notification-bottom-left lg:m-2">
+            <div class="uc-notification-message vstack lg:hstack items-end gap-2 lg:gap-4 lg:p-3 bg-white text-dark border rounded-1-5 min-w-1/2">
+                <a id="uc-close-gdpr-notification" class="uc-notification-close text-dark" data-uc-close></a>
+                <div class="vstack">
+                    <h2 class="h5 ft-primary fw-bold -ls-1 m-0 text-dark">GDPR Compliance</h2>
+                    <p class="fs-6 mt-1">We use cookies to ensure you get the best experience on our website. By continuing to use our site, you accept our use of cookies, <a href="page-privacy.html" class="uc-link text-underline">privacy policy</a> and <a href="page-terms.html" class="uc-link text-underline">terms of service</a>.</p>
+                </div>
+                <button class="btn btn-sm btn-primary px-2" id="uc-accept-gdpr">Accept</button>
+            </div>
+        </div>
+
+        <!--  Menu panel -->
+        <div id="uc-menu-panel" data-uc-offcanvas="overlay: true;">
+            <div class="uc-offcanvas-bar m-1 rounded-2 border border-2 border-black contrast-shadow-md bg-secondary-200 text-dark dark:bg-gray-900 dark:text-white">
+                <header class="uc-offcanvas-header hstack justify-between items-center pb-2">
+                    <div class="uc-logo">
+                        <a class="panel text-none w-150px xl:w-auto mb-0 text-white text-uppercase ls-0 stroke-text-yellow" href="index.html">
+                            $OGCG
+                        </a>
+                    </div>
+                    <button class="uc-offcanvas-close rtl:end-auto rtl:start-0 m-1 mt-2 p-0 btn border-0 dark:text-white dark:text-opacity-50 hover:text-primary hover:rotate-90 duration-150 transition-all" type="button">
+                        <img class="icon icon-3" src="assets/images/icons/close.svg" alt="close" data-uc-svg>
+                    </button>
+                </header>
+
+                <div class="panel">
+                    <ul class="nav-y gap-narrow fw-medium fs-6" data-uc-nav>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#features">How to buy</a></li>
+                        <li><a href="index.html#contact">Tokenomics</a></li>
+                        <li><a href="index.html#faq">FAQ</a></li>
+                        <li><a href="index.html#main-contact">Join Us</a></li>
+                        <li class="hr opacity-10 my-1"></li>
+                    </ul>
+                    <ul class="nav-x gap-1 mt-4">
+                        <li>
+                            <a class="w-32px hover:-rotate-3" href="#"><img src="assets/images/common/twitter.svg" alt="twitter"></a>
+                        </li>
+                        <li>
+                            <a class="w-32px hover:-rotate-3" href="#"><img src="assets/images/common/facebook.svg" alt="facebook"></a>
+                        </li>
+                        <li>
+                            <a class="w-32px hover:-rotate-3" href="#"><img src="assets/images/common/youtube.svg" alt="youtube"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--  Bottom Actions Sticky -->
+        <div class="backtotop-wrap position-fixed bottom-0 end-0 z-99 m-2 vstack">
+            <a class="btn btn-sm p-0 bg-yellow text-black border border-2 border-black contrast-shadow-sm w-48px h-48px rounded-circle" href="to_top" data-uc-backtotop>
+                <img class="icon icon-3" src="assets/images/icons/chevron-up.svg" alt="to-top" data-uc-svg>
+            </a>
+        </div>
+
+        <!-- Header start -->
+        <header class="uc-header header-three uc-navbar-sticky-wrap z-999 uc-dark" data-uc-sticky="start: 100vh; animation: uc-animation-slide-top; sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: !*;">
+            <nav class="uc-navbar-container bg-transparent mt-3 xl:mt-4 uc-navbar-float ft-tertiary z-1" data-anime="translateY: [-40, 0]; opacity: [0, 1]; duration: 750; delay: 0;">
+                <div class="uc-navbar-main" style="--uc-nav-height: 100px">
+                    <div class="container">
+                        <div class="uc-navbar min-h-64px lg:min-h-80px xl:min-h-100px ps-2 pe-1 lg:px-4 bg-primary-400 bg-opacity-35 rounded-2 lg:rounded-3 backdrop-2" data-uc-navbar=" animation: uc-animation-slide-top-small; duration: 150;">
+                            <div class="uc-navbar-left">
+                                <div class="uc-logo">
+                                    <a class="panel text-none w-150px h5 xl:h4 stroke-text m-0" href="index.html">
+                                        $OGCG
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="uc-navbar-center">
+                                <ul class="uc-navbar-nav fs-4 gap-3 lg:gap-4 d-none lg:d-flex fw-semibold text-white" data-uc-scrollspy-nav="closet: > *; offset: 48; scroll: true;">
+                                    <li><a href="index.html#about">About</a></li>
+                                    <li><a href="index.html#features">How to buy</a></li>
+                                    <li><a href="index.html#contact">Tokenomics</a></li>
+                                    <li><a href="index.html#faq">FAQ</a></li>
+                                    <li><a href="index.html#main-contact">Join Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="uc-navbar-right">
+                                <a class="btn btn-sm xl:btn-md border border-3 border-black bg-gradient-45n from-secondary to-tertiary text-secondary contrast-shadow hover:-rotate-2 d-none lg:d-inline-flex" style="--shadowColor: var(--color-secondary)" href="https://jup.ag/swap/SOL-GFLEbpUqYeZwe8f91U1UKQZwByAVA2kezpWpQonLLkP1" target="_blank">
+                                    <span class="text-black">Buy Now</span>
+                                </a>
+                                <a class="btn btn-md btn-secondary w-48px h-48px p-0 border border-2 border-black contrast-shadow-sm d-inline-flex lg:d-none" href="#uc-menu-panel" data-uc-toggle>
+                                    <img class="icon icon-3" src="assets/images/icons/menu.svg" alt="menu" data-uc-svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Header end -->
+
+        <!-- Wrapper start -->
+        <div id="wrapper" class="wrap">
+
+            <!-- Hero start -->
+            <div id="hero_header" class="hero-header section panel overflow-hidden">
+                <div class="section-outer py-10 lg:py-10 bg-primary">
+                    <div class="container">
+                        <div class="section-inner panel text-center">
+                            <img class="hero-img" src="assets/images/home-three/hero.png" alt="Hero Image">
+                            <div class="panel vstack items-center gap-4 sm:gap-5 xl:gap-7 max-w-md mx-auto text-center px-2 lg:px-0 mt-0" data-anime="targets: >*; translateY: [24, 0]; opacity: [0, 1]; delay: anime.stagger(100, {start: 200});">
+                                <h1 class="h3 sm:h1 xl:display-6 mb-0 text-white text-uppercase ls-0 stroke-text-yellow">OG Chill Guy</span></h1>
+                                <div class="vstack sm:hstack justify-center gap-2 sm:gap-3">
+                                    <div class="w-100">
+                                        <div class="copy-text-block p-2 xl:p-3 border border-2 border-black contrast-shadow-sm text-black rounded-3 bg-white">
+                                            <input type="text" class="copy-text-input" value="GjeoEzugvhZYHyALgCLcxcLfbB52vRfz8jXFn26oNqsx" disabled />
+                                            <button class="copy-text-btn btn btn-sm xl:btn-md border border-3 border-black bg-gradient-45n from-secondary to-tertiary text-secondary contrast-shadow hover:-rotate-2 d-none lg:d-inline-flex text-black">
+                                                Copy CA
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero end -->
+
+            <!-- Text Marquee Start -->
+            <div class="h3 xl:h2 fw-medium py-4 xl:py-6 reverse bg-white text-black text-uppercase ls-0" data-uc-marquee="clone: 3; gap: 64; reverse: true;" style="--gap: 32px">
+                <div>
+                    <div class="hstack gap-8">
+                        <span>$ OGCG</span>
+                        <span>$ I'm the Money</span>
+                        <span>$ OGCG</span>
+                    </div>
+                    <div class="hstack gap-8">
+                        <div>$ OGCG</div>
+                        <span>$ I'm the Money</span>
+                        <span>$ OGCG</span>
+                    </div>
+                    <div class="hstack gap-8">
+                        <span>$ OGCG</span>
+                        <span>$ I'm the Money</span>
+                        <div>$ OGCG</div>
+                    </div>
+                    <div class="hstack gap-8">
+                        <span>$ OGCG</span>
+                        <span>$ I'm the Money</span>
+                        <div>$ OGCG</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Text Marquee end -->
+
+            <!-- Section start -->
+            <div id="about" class="about section panel overflow-hidden">
+                <div class="section-outer panel py-6 sm:py-8 lg:py-9 xl:py-10 bg-secondary">
+                    <div class="container sm:max-w-lg xl:max-w-2xl">
+                        <div class="section-inner panel">
+                            <div class="row child-cols-12 justify-center items-center g-4 sm:g-6 lg:g-9" data-anime="onview: -300; targets: >*; translateY: [24, 0]; opacity: [0, 1]; delay: anime.stagger(100, {start: 200});">
+                                <div class="lg:col order-1 lg:order-0">
+                                    <div class="about-content vstack gap-3 sm:gap-4 p-3 sm:p-4 xl:px-5 xl:py-6 border border-3 border-black contrast-shadow-xl bg-primary text-black">
+                                        <h2 class="title h5 sm:h3 xl:h2 mb-0 ls-0 text-uppercase text-white -rotate-1">About $OGCG 🚀</h2>
+                                        <div class="desc">
+                                            <p class="fs-6 sm:fs-5 xl:fs-4 mb-2 text-white">
+                                                OG Chill Guy ($OGCG) is a meme-driven cryptocurrency on the Solana Network, created to deliver a fun, community-focused, and potentially rewarding crypto experience. Whether you’re a seasoned enthusiast or a newcomer, $OGCG invites you to join a collective journey that blends humor with blockchain innovation.
+                                            </p>
+                                        </div>
+                                        <div class="buttons hstack gap-2 xl:gap-3">
+                                            <a class="btn btn-md xl:btn-2xl btn-secondary px-3 border border-3 border-black contrast-shadow-sm hover:-rotate-2" href="https://jup.ag/swap/SOL-GFLEbpUqYeZwe8f91U1UKQZwByAVA2kezpWpQonLLkP1" target="_blank">
+                                                <span>Buy Now</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="lg:col-6 xl:col-auto order-0 lg:order-1 d-none lg:d-block">
+                                    <div class="about-image panel">
+                                        <img src="assets/images/home-three/01.jpg" alt="Image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="features" class="features section panel">
+                <div class="section-outer panel py-6 sm:py-8 lg:py-9 xl:py-10 bg-primary">
+                    <div class="container sm:max-w-lg xl:max-w-xl">
+                        <div class="section-inner panel">
+                            <div class="section-header panel sm:max-w-500px xl:max-w-800px mx-auto mb-8 sm:mb-9 xl:mb-10 text-center" data-anime="onview: true; translateY: [48, 0]; opacity: [0, 1]; delay: 200;">
+                                <span class="fs-5 xl:fs-4 text-secondary fw-bold">How to get started!</span>
+                                <h2 class="h4 sm:h3 xl:h2 mb-0 mt-2 text-white text-uppercase ls-0">How to buy Tokens</h2>
+                            </div>
+                            <div class="section-content panel text-center">
+                                <div class="row child-cols-12 sm:child-cols-6 lg:child-cols-4 justify-center gx-3 gy-6 lg:g-4 xl:g-4 col-match" data-anime="onview: -300; targets: >*; translateY: [24, 0]; opacity: [0, 1]; delay: anime.stagger(100, {start: 200});">
+                                    <div>
+                                        <div class="features-item panel vstack gap-4 xl:gap-6 px-4 pt-8 pb-6 xl:px-6 xl:py-9 border border-1 border-gray-100 border-opacity-40 rounded-4 bg-white bg-opacity-5">
+                                            <div class="feature-item-number position-absolute top-0 start-50 translate-middle">
+                                                <div class="cstack w-64px h-64px xl:w-80px xl:h-80px bg-white rounded-circle">
+                                                    <h4 class="h5 xl:h4 m-0 stroke-text">1</h4>
+                                                </div>
+                                            </div>
+                                            <div class="feature-item-image">
+                                                <img class="image h-100px xl:h-150px mx-auto" src="assets/images/home-three/Phantom-Icon_Transparent_White.svg" alt="Image">
+                                            </div>
+                                            <div class="feature-item-content">
+                                                <h4 class="title h5 xl:h4 mb-2 xl:mb-3 stroke-text">Connect your wallet</h4>
+                                                <p class="desc fs-5 xl:fs-4">Create any wallet of your choice, we recommend Phantom.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="features-item panel vstack gap-4 xl:gap-6 px-4 pt-8 pb-6 xl:px-6 xl:py-9 border border-1 border-gray-100 border-opacity-40 rounded-4 bg-white bg-opacity-5">
+                                            <div class="feature-item-number position-absolute top-0 start-50 translate-middle">
+                                                <div class="cstack w-64px h-64px xl:w-80px xl:h-80px bg-white rounded-circle">
+                                                    <h4 class="h5 xl:h4 m-0 stroke-text">2</h4>
+                                                </div>
+                                            </div>
+                                            <div class="feature-item-image">
+                                                <img class="image h-100px xl:h-150px mx-auto" src="assets/images/home-three/solanaLogoMark.svg" alt="Image">
+                                            </div>
+                                            <div class="feature-item-content">
+                                                <h4 class="title h5 xl:h4 mb-2 xl:mb-3 stroke-text">Exchange some coins</h4>
+                                                <p class="desc fs-5 xl:fs-4">Fund your wallet with Solana, you can buy Solana from an exchange.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="features-item panel vstack gap-4 xl:gap-6 px-4 pt-8 pb-6 xl:px-6 xl:py-9 border border-1 border-gray-100 border-opacity-40 rounded-4 bg-white bg-opacity-5">
+                                            <div class="feature-item-number position-absolute top-0 start-50 translate-middle">
+                                                <div class="cstack w-64px h-64px xl:w-80px xl:h-80px bg-white rounded-circle">
+                                                    <h4 class="h5 xl:h4 m-0 stroke-text">3</h4>
+                                                </div>
+                                            </div>
+                                            <div class="feature-item-image">
+                                                <img class="image h-100px xl:h-150px mx-auto" src="assets/images/home-three/raydiumLogoMark.svg" alt="Image">
+                                            </div>
+                                            <div class="feature-item-content">
+                                                <h4 class="title h5 xl:h4 mb-2 xl:mb-3 stroke-text">Start buying & selling</h4>
+                                                <p class="desc fs-5 xl:fs-4">Head to Raydium & paste our Contract Address, and swap your Solana to our token.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="contact" class="contact section panel overflow-hidden">
+                <div class="section-outer panel py-6 sm:py-8 lg:py-9 xl:py-10 bg-secondary">
+                    <div class="container sm:max-w-lg xl:max-w-2xl">
+                        <div class="section-inner panel">
+                            <div class="row child-cols-12 justify-center items-center g-5 sm:g-7 lg:g-9" data-anime="onview: -300; targets: >*; translateY: [24, 0]; opacity: [0, 1]; delay: anime.stagger(100, {start: 200});">
+                                <div class="sm:col-10 lg:col-6 order-2 lg:order-2">
+                                    <div class="contact-image panel vstack items-center gap-1 xl:gap-1 px-3 py-4 sm:p-4 xl:p-6 border border-3 border-black contrast-shadow-xl text-black bg-primary-400">
+                                        <p class="desc text-white fs-6 xl:fs-6">
+                                            <strong>Fair Distribution</strong>: All $OGCG tokens are released simultaneously, preventing any advantage for early adopters or private investors.
+                                        </p>
+                                        <p class="desc text-white fs-6 xl:fs-6">
+                                            <strong>Transparency</strong>: Each aspect of the tokenomics, from total supply to allocation, is publicly verifiable on-chain.
+                                        </p>
+                                        <p class="desc text-white fs-6 xl:fs-6">
+                                            <strong>Community-Centric</strong>: With no presale or private funding rounds, $OGCG focuses on cultivating a robust, collaborative community from the outset.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="sm:col-10 lg:col-6 order-1 lg:order-1">
+                                    <div class="contact-content vstack items-center gap-4 xl:gap-6 text-center">
+                                        <div class="panel w-full">
+                                            <div class="row child-cols-6 justify-center g-2 sm:g-3 xl:g-4">
+                                                <div>
+                                                    <div class="p-2 xl:p-3 border border-2 border-black contrast-shadow-sm text-black rounded-3 bg-white">
+                                                        <h5 class="h7 sm:h6 xl:h5 m-0 ft-primary fw-semibold">Symbol: <br/> $OGCG</h5>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="p-2 xl:p-3 border border-2 border-black contrast-shadow-sm text-black rounded-3 bg-white">
+                                                        <h5 class="h7 sm:h6 xl:h5 m-0 ft-primary fw-semibold">Network: <br/> Solana</h5>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="p-2 xl:p-3 border border-2 border-black contrast-shadow-sm text-black rounded-3 bg-white">
+                                                        <h5 class="h7 sm:h6 xl:h5 m-0 ft-primary fw-semibold">Total Supply: <br/> 1,000,000,000 </h5>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="p-2 xl:p-3 border border-2 border-black contrast-shadow-sm text-black rounded-3 bg-white">
+                                                        <h5 class="h7 sm:h6 xl:h5 m-0 ft-primary fw-semibold">Tax: <br/> 0%</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sm:col-8 lg:col-8 order-0 lg:order-0">
+                                    <div class="contact-content vstack items-center gap-4 xl:gap-6 text-center">
+                                        <h2 class="title h5 sm:h3 xl:h2 mb-0 ls-0 text-uppercase"> Tokenomics </h2>
+                                        <div class="panel w-full">
+                                            <div class="copy-text-block p-2 xl:p-3 border border-2 border-black contrast-shadow-sm text-black rounded-3 bg-white">
+                                                <input type="text" class="copy-text-input" value="GjeoEzugvhZYHyALgCLcxcLfbB52vRfz8jXFn26oNqsx" disabled />
+                                                <button class="copy-text-btn btn btn-sm xl:btn-md border border-3 border-black bg-gradient-45n from-secondary to-tertiary text-secondary contrast-shadow hover:-rotate-2 d-none lg:d-inline-flex text-black">
+                                                    Copy CA
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Section end -->
+
+            <!-- Text Marquee Start -->
+            <div class="h3 xl:h2 fw-medium py-4 xl:py-6 reverse bg-white text-black text-uppercase ls-0" data-uc-marquee="clone: 3; gap: 64; reverse: true;" style="--gap: 32px">
+                <div>
+                    <div class="hstack gap-8">
+                        <span>$ OGCG</span>
+                        <span>$ I'm the Money</span>
+                        <span>$ OGCG</span>
+                    </div>
+                    <div class="hstack gap-8">
+                        <div>$ OGCG</div>
+                        <span>$ I'm the Money</span>
+                        <span>$ OGCG</span>
+                    </div>
+                    <div class="hstack gap-8">
+                        <span>$ OGCG</span>
+                        <span>$ I'm the Money</span>
+                        <div>$ OGCG</div>
+                    </div>
+                    <div class="hstack gap-8">
+                        <span>$ OGCG</span>
+                        <span>$ I'm the Money</span>
+                        <div>$ OGCG</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Text Marquee end -->
+
+            <!-- Section start -->
+            <div id="faq" class="faq section panel overflow-hidden">
+                <div class="section-outer panel py-6 sm:py-8 lg:py-9 xl:py-10 bg-primary">
+                    <div class="container sm:max-w-md xl:max-w-lg">
+                        <div class="section-inner panel" data-anime="onview: -300; targets: >*; translateY: [24, 0]; opacity: [0, 1]; delay: anime.stagger(100, {start: 200});">
+                            <div class="section-header panel sm:max-w-500px xl:max-w-800px mx-auto mb-4 sm:mb-6 xl:mb-9 text-center">
+                                <h2 class="h4 sm:h3 xl:h2 m-0 rotate-2 text-white text-uppercase ls-0">FAQ 🤔</h2>
+                            </div>
+                            <div class="section-content panel">
+                                <ul class="gap-3 sm:gap-4" data-uc-accordion="targets: > li; multiple: true">
+                                    <li class="panel p-3 sm: p-4 xl:p-6 border border-2 border-black contrast-shadow-sm text-black rounded-2 bg-secondary-100 rotate-1 uc-open">
+                                        <a class="uc-accordion-title h5 xl:h4 stroke-text m-0" href="#">What is $OGCG? 🤔</a>
+                                        <div class="uc-accordion-content">
+                                            <p class="fs-5 xl:fs-4">
+                                                $OGCG is a meme-centric digital asset on Solana, aiming to blend fun and profitability by fostering a spirited community and offering intuitive staking mechanisms.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="panel p-3 sm:p-4 xl:p-6 border border-2 border-black contrast-shadow-sm text-black rounded-2 bg-secondary-100 -rotate-1">
+                                        <a class="uc-accordion-title h5 xl:h4 stroke-text m-0" href="#">Where can I buy $OGCG? 💎</a>
+                                        <div class="uc-accordion-content">
+                                            <p class="fs-5 xl:fs-4">
+                                                You can purchase $OGCG through the fair launch process on pump.fun. Eventually, $OGCG may appear on various decentralized and centralized exchanges, offering extra ways to trade or acquire more tokens.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="panel p-3 sm:p-4 xl:p-6 border border-2 border-black contrast-shadow-sm text-black rounded-2 bg-secondary-100 rotate-1">
+                                        <a class="uc-accordion-title h5 xl:h4 stroke-text m-0" href="#">Is $OGCG secure? 📊</a>
+                                        <div class="uc-accordion-content">
+                                            <p class="fs-5 xl:fs-4">
+                                                Absolutely. We prioritize security with advanced encryption, frequent audits, and best-practice compliance to protect holders and the overall ecosystem.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="panel p-3 sm:p-4 xl:p-6 border border-2 border-black contrast-shadow-sm text-black rounded-2 bg-secondary-100 -rotate-1">
+                                        <a class="uc-accordion-title h5 xl:h4 stroke-text m-0" href="#">How can I contact the $OGCG team? 👥</a>
+                                        <div class="uc-accordion-content">
+                                            <p class="fs-5 xl:fs-4">
+                                                Connect with us on our official social channels—Twitter, Discord, and Telegram. Our support team is ready to assist with any questions or feedback you may have.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="main-contact" class="main-contact section panel overflow-hidden">
+                <div class="section-outer panel py-6 sm:py-8 lg:py-9 xl:py-10 bg-secondary">
+                    <div class="container sm:max-w-md">
+                        <div class="section-inner panel">
+                            <div class="section-header panel sm:max-w-500px xl:max-w-800px mx-auto mb-4 sm:mb-6 xl:mb-9 text-center">
+                                <h2 class="h4 sm:h3 xl:h2 m-0 text-uppercase ls-0">Join $OGCG 📢</h2>
+                            </div>
+                            <div class="section-footer panel mt-4 sm:mt-6 xl:mt-9">
+                                <ul class="nav-x justify-center gap-4 xl:gap-6">
+                                    <li>
+                                        <a class="w-48px lg:w-56px xl:w-64px hover:-rotate-3" href="#"><img src="assets/images/common/twitter.svg" alt="twitter"></a>
+                                    </li>
+                                    <li>
+                                        <a class="w-48px lg:w-56px xl:w-64px hover:-rotate-3" href="#"><img src="assets/images/common/facebook.svg" alt="twitter"></a>
+                                    </li>
+                                    <li>
+                                        <a class="w-48px lg:w-56px xl:w-64px hover:-rotate-3" href="#"><img src="assets/images/common/youtube.svg" alt="twitter"></a>
+                                    </li>
+                                    <li>
+                                        <a class="w-48px lg:w-56px xl:w-64px hover:-rotate-3" href="#"><img src="assets/images/common/medium.svg" alt="twitter"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+        </div>
+
+        <!-- Wrapper end -->
+
+        <!-- include jquery & bootstrap js -->
+        <script defer src="assets/js/libs/jquery.min.js"></script>
+        <script defer src="assets/js/libs/bootstrap.min.js"></script>
+
+        <!-- include scripts -->
+        <script defer src="assets/js/libs/anime.min.js"></script>
+        <script defer src="assets/js/libs/swiper-bundle.min.js"></script>
+        <script defer src="assets/js/libs/scrollmagic.min.js"></script>
+        <script defer src="assets/js/libs/typed.min.js"></script>
+        <script defer src="assets/js/libs/tilt.min.js"></script>
+        <script defer src="assets/js/libs/split-type.min.js"></script>
+        <script defer src="assets/js/libs/prettify.min.js"></script>
+        <script defer src="assets/js/libs/gsap.min.js"></script>
+        <script defer src="assets/js/core/magic-cursor.js"></script>
+        <script defer src="assets/js/helpers/data-attr-helper.js"></script>
+        <script defer src="assets/js/helpers/swiper-helper.js"></script>
+        <script defer src="assets/js/helpers/splitype-helper.js"></script>
+        <script defer src="assets/js/helpers/anime-helper.js"></script>
+        <script defer src="assets/js/helpers/typed-helper.js"></script>
+        <script defer src="assets/js/helpers/tilt-helper.js"></script>
+        <script defer src="assets/js/core/marquee.js"></script>
+        <script defer src="assets/js/uikit-components-bs.js"></script>
+
+        <!-- include app script -->
+        <script defer src="assets/js/app.js"></script>
+        <script>
+            document.querySelectorAll(".copy-text-block").forEach(copyText => {
+                let input = copyText.querySelector(".copy-text-input");
+                let button = copyText.querySelector(".copy-text-btn");
+
+                button.addEventListener("click", function () {
+                    input.removeAttribute("disabled"); // Enable temporarily
+                    input.select();
+                    document.execCommand("copy");
+                    input.setAttribute("disabled", "true"); // Disable again
+
+                    // Change button text to "Copied"
+                    let originalText = button.innerText;
+                    button.innerText = "Copied";
+
+                    // Reset button text after 2.5 seconds
+                    setTimeout(function () {
+                        button.innerText = originalText;
+                        copyText.classList.remove("active");
+                    }, 2500);
+                });
+            });
+        </script>
+    </body>
+</html>
